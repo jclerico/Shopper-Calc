@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00662B1C1F35DDA000A7F7B4 /* Shopper_CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00662B1B1F35DDA000A7F7B4 /* Shopper_CalcTests.swift */; };
+		00662B251F35DDCF00A7F7B4 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00662B241F35DDCF00A7F7B4 /* Wage.swift */; };
+		00662B261F35E0AF00A7F7B4 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00662B241F35DDCF00A7F7B4 /* Wage.swift */; };
 		0068A6441F35D0D90038290C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068A6431F35D0D90038290C /* AppDelegate.swift */; };
 		0068A6461F35D0D90038290C /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068A6451F35D0D90038290C /* MainVC.swift */; };
 		0068A6491F35D0D90038290C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0068A6471F35D0D90038290C /* Main.storyboard */; };
@@ -15,7 +18,21 @@
 		0068A6591F35D24D0038290C /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068A6581F35D24D0038290C /* CurrencyTxtField.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		00662B1E1F35DDA000A7F7B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0068A6381F35D0D80038290C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0068A63F1F35D0D80038290C;
+			remoteInfo = "Shopper-Calc";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		00662B191F35DDA000A7F7B4 /* Shopper-CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopper-CalcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00662B1B1F35DDA000A7F7B4 /* Shopper_CalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopper_CalcTests.swift; sourceTree = "<group>"; };
+		00662B1D1F35DDA000A7F7B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00662B241F35DDCF00A7F7B4 /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 		0068A6401F35D0D80038290C /* Shopper-Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopper-Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0068A6431F35D0D90038290C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0068A6451F35D0D90038290C /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -27,6 +44,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		00662B161F35DDA000A7F7B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0068A63D1F35D0D80038290C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +61,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00662B1A1F35DDA000A7F7B4 /* Shopper-CalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				00662B1B1F35DDA000A7F7B4 /* Shopper_CalcTests.swift */,
+				00662B1D1F35DDA000A7F7B4 /* Info.plist */,
+			);
+			path = "Shopper-CalcTests";
+			sourceTree = "<group>";
+		};
 		0068A6371F35D0D80038290C = {
 			isa = PBXGroup;
 			children = (
 				0068A6421F35D0D80038290C /* Shopper-Calc */,
+				00662B1A1F35DDA000A7F7B4 /* Shopper-CalcTests */,
 				0068A6411F35D0D80038290C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				0068A6401F35D0D80038290C /* Shopper-Calc.app */,
+				00662B191F35DDA000A7F7B4 /* Shopper-CalcTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +122,7 @@
 		0068A6571F35D1790038290C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				00662B241F35DDCF00A7F7B4 /* Wage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -94,6 +130,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		00662B181F35DDA000A7F7B4 /* Shopper-CalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00662B221F35DDA000A7F7B4 /* Build configuration list for PBXNativeTarget "Shopper-CalcTests" */;
+			buildPhases = (
+				00662B151F35DDA000A7F7B4 /* Sources */,
+				00662B161F35DDA000A7F7B4 /* Frameworks */,
+				00662B171F35DDA000A7F7B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00662B1F1F35DDA000A7F7B4 /* PBXTargetDependency */,
+			);
+			name = "Shopper-CalcTests";
+			productName = "Shopper-CalcTests";
+			productReference = 00662B191F35DDA000A7F7B4 /* Shopper-CalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0068A63F1F35D0D80038290C /* Shopper-Calc */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0068A6521F35D0D90038290C /* Build configuration list for PBXNativeTarget "Shopper-Calc" */;
@@ -121,6 +175,10 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Jeremy Clerico";
 				TargetAttributes = {
+					00662B181F35DDA000A7F7B4 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 0068A63F1F35D0D80038290C;
+					};
 					0068A63F1F35D0D80038290C = {
 						CreatedOnToolsVersion = 9.0;
 					};
@@ -140,11 +198,19 @@
 			projectRoot = "";
 			targets = (
 				0068A63F1F35D0D80038290C /* Shopper-Calc */,
+				00662B181F35DDA000A7F7B4 /* Shopper-CalcTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		00662B171F35DDA000A7F7B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0068A63E1F35D0D80038290C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -158,17 +224,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		00662B151F35DDA000A7F7B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00662B1C1F35DDA000A7F7B4 /* Shopper_CalcTests.swift in Sources */,
+				00662B261F35E0AF00A7F7B4 /* Wage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0068A63C1F35D0D80038290C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0068A6591F35D24D0038290C /* CurrencyTxtField.swift in Sources */,
+				00662B251F35DDCF00A7F7B4 /* Wage.swift in Sources */,
 				0068A6461F35D0D90038290C /* MainVC.swift in Sources */,
 				0068A6441F35D0D90038290C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00662B1F1F35DDA000A7F7B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0068A63F1F35D0D80038290C /* Shopper-Calc */;
+			targetProxy = 00662B1E1F35DDA000A7F7B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0068A6471F35D0D90038290C /* Main.storyboard */ = {
@@ -190,6 +274,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		00662B201F35DDA000A7F7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VUPUN7YH6F;
+				INFOPLIST_FILE = "Shopper-CalcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JClerico.Shopper-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopper-Calc.app/Shopper-Calc";
+			};
+			name = Debug;
+		};
+		00662B211F35DDA000A7F7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VUPUN7YH6F;
+				INFOPLIST_FILE = "Shopper-CalcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JClerico.Shopper-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopper-Calc.app/Shopper-Calc";
+			};
+			name = Release;
+		};
 		0068A6501F35D0D90038290C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -328,6 +442,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		00662B221F35DDA000A7F7B4 /* Build configuration list for PBXNativeTarget "Shopper-CalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00662B201F35DDA000A7F7B4 /* Debug */,
+				00662B211F35DDA000A7F7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0068A63B1F35D0D80038290C /* Build configuration list for PBXProject "Shopper-Calc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
